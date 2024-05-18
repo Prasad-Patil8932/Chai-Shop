@@ -1,0 +1,32 @@
+.button{
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background:rgb(72, 8, 21);;
+    color: white;
+    padding: 0.7rem 1.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.button:hover, .button:active{
+    background:#974500;
+}
+.icon{
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.5rem;
+    
+}
+.badge{
+    background-color: brown;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.cartButtonName{
+    padding-left:0.5rem;
+}
